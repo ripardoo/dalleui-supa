@@ -15,7 +15,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 
-import { createClient } from "C:/Projects/dalleui-supa/utils/supabase/client.ts";
+import { createClient } from "@/utils/supabase/client.ts";
 
 const formSchema = z.object({
   apiKey: z.string().min(40).max(60),

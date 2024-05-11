@@ -1,6 +1,6 @@
 import PromptForm from "@/components/PromptForm";
 import Image from "next/image";
-import { createClient } from "C:/Projects/dalleui-supa/utils/supabase/server.ts";
+import { createClient } from "@/utils/supabase/server.ts";
 
 export default async function Index() {
   const supabase = createClient();
